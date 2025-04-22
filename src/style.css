@@ -1,3 +1,87 @@
 /* @tailwind base;
 @tailwind utilities;
 @tailwind utilities; */
+
+
+.inputSec{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px rgb(87, 85, 85);
+    width:300px;
+}
+
+header nav ul li img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.Searcher{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.person{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: blue;
+    margin-right: 5px;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: blue;
+    margin-left: 15px;
+}
+.personLongin{
+    display: flex;
+    
+}
+.dropdown{
+    flex-direction: column;   
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
+.dropdown-menu{
+    padding: 2rem;
+    height: 350px;
+    width: 100%;
+    background-color: rgba(248, 252, 250, 0.952);
+    margin-top: 0px;
+    position: absolute;
+    display: none;
+}
+.dropdown-menu a{
+    
+    padding: 5px;
+    /* display: block; */
+}
+
+.dropdown-menu li{
+    padding: 2px;
+    margin-top: 0;
+}
+.dropdown-menu-colun-1,
+dropdown-menu-colun-2,
+dropdown-menu-colun-3,
+dropdown-menu-colun-4,
+dropdown-menu-colun-5{
+    float: left;
+}
+.dropdown-menu-colun-1{
+    margin-top: 0;
+    width: 15%;
+}
+.imagemCaneca{
+    width: 250px;
+    height: 250px;
+}
+.margintop{
+    margin-top: 40px;
+}
